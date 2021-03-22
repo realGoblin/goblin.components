@@ -3,10 +3,11 @@
 /** @var CBitrixComponent $component */
 
 $APPLICATION->IncludeComponent(
-    "goblin.components:news.detail",
+    "goblin.components:news.list",
     "",
     array(
     ),
     $component
 );
+
 ?>

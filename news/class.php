@@ -43,7 +43,7 @@ class TestElementsComponent extends \CBitrixComponent
     protected function setSefDefaultParams()
     {
         $this->defaultUrlTemplates404 = array(
-            'index' => 'index.php',
+            'list' => 'index.php',
             'detail' => '#ELEMENT_CODE#/'
         );
         $this->componentVariables = array('IBLOCK_ID','ELEMENT_CODE');
